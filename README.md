@@ -25,25 +25,21 @@ Follow these steps to run this project locally:
 1. Clone the Repository
 
 use git bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/prabod23/EmployeeAdminPortal.git 
+cd EmployeeAdminPortal 
 
 2. Open in Visual Studio
 Open the .sln file in Visual Studio.
 
 3. Set Up the Database
-Make sure Microsoft SQL Server is running.
-
-Create a new database manually (if not using migrations).
-
-Or run EF Core migrations to set up the database:
+Make sure Microsoft SQL Server is running.and Make sure the connection string in appsettings.json matches your SQL Server setup:
 
 In the Package Manager Console run
 Update-Database
 
-Make sure the connection string in appsettings.json matches your SQL Server setup:
 
-4. Run the Application
+
+5. Run the Application
 Press F5 or click Start Debugging in Visual Studio.
 
 Navigate to test the API with Swagger.
