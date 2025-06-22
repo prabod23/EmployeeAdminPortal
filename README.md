@@ -30,13 +30,16 @@ cd EmployeeAdminPortal
 
 
 2. Open in Visual Studio
+
 Open the .sln file in Visual Studio.
 
-3. Set Up the Database
+4. Set Up the Database
+
 Make sure Microsoft SQL Server is running.
 Make sure the connection string in appsettings.json matches your SQL Server setup:
 
 In the Package Manager Console run
+
 Update-Database
 
 
