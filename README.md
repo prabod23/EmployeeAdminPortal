@@ -25,7 +25,9 @@ Follow these steps to run this project locally:
 1. Clone the Repository
 
 git clone https://github.com/prabod23/EmployeeAdminPortal.git 
+
 cd EmployeeAdminPortal 
+
 
 2. Open in Visual Studio
 Open the .sln file in Visual Studio.
