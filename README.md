@@ -24,7 +24,6 @@ Follow these steps to run this project locally:
 
 1. Clone the Repository
 
-use git bash
 git clone https://github.com/prabod23/EmployeeAdminPortal.git 
 cd EmployeeAdminPortal 
 
@@ -32,7 +31,8 @@ cd EmployeeAdminPortal
 Open the .sln file in Visual Studio.
 
 3. Set Up the Database
-Make sure Microsoft SQL Server is running.and Make sure the connection string in appsettings.json matches your SQL Server setup:
+Make sure Microsoft SQL Server is running.
+Make sure the connection string in appsettings.json matches your SQL Server setup:
 
 In the Package Manager Console run
 Update-Database
